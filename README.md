@@ -1,43 +1,93 @@
-# react-native-spinner
+<h1 align="center" style="text-align: center;">react-native-flash-message</h1>
 
-## Getting started
+<p align="center" style="font-size: 1.2rem;">
+  <strong>global Spinner</strong> it is a React Native module to help you with easily and highly customizable Spinner to show loading<br />
+  <img src="https://i.imgur.com/t4COoWT.gif" alt="Global Demo of Spinner Component" width="86%" style="border: 0; width: 86%; min-width: 240px; max-width: 100%;" />
+</p>
 
-`$ npm install react-native-spinner --save`
+<p align="center" style="font-size: 1.2rem;">
+  <a href="https://npmjs.org/package/react-native-flash-message" title="View this project on npm">
+    <img src="http://img.shields.io/npm/v/react-native-flash-message.svg?style=flat-square" alt="npm version" />
+  </a>
+  <a href="https://npmjs.org/package/react-native-flash-message" title="View this project on npm">
+    <img src="http://img.shields.io/npm/dm/react-native-flash-message.svg?style=flat-square" alt="npm downloads" />
+  </a>
+  <a href="https://npmjs.org/package/react-native-flash-message" title="View this project on npm">
+    <img src="http://img.shields.io/npm/l/react-native-flash-message.svg?style=flat-square" alt="npm licence" />
+  </a>
+</p>
 
-### Mostly automatic installation
+## Installation
 
-`$ react-native link react-native-spinner`
+Since the library is a JS-based solution, to install the latest version of `react-native-globalspinner` you only need to run:
 
-### Manual installation
-
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-spinner` and add `Spinner.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libSpinner.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
-
-#### Android
-
-1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import com.reactlibrary.SpinnerPackage;` to the imports at the top of the file
-  - Add `new SpinnerPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-spinner'
-  	project(':react-native-spinner').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-spinner/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-spinner')
-  	```
-
-
-## Usage
-```javascript
-import Spinner from 'react-native-spinner';
-
-// TODO: What to do with the module?
-Spinner;
+```bash
+npm install --save react-native-globalspinner
 ```
+
+or
+
+```bash
+yarn add react-native-globalspinner
+```
+
+<!-- ## Try it out
+
+You can try out the [Flash Message Playground app](https://exp.host/@lucasferreira/FlashMessagePlayground) to get a tease of the functionalities of this lib. -->
+
+## Basic Usage
+
+The _Spinner component_ it's build to a global use, so you have to instance this component once in your main app screen always as a last inserted component:
+
+```jsx
+import React from "react";
+import { View } from "react-native";
+import Spinner, { showSpinner, hideSpinner } from "react-native-globalspinner";
+
+export default class App extends React.Component {
+    render() {
+        return (
+            <View style={{ flex: 1 }}>
+                <View ref={"otherView1"} />
+                <View ref={"otherView2"} />
+                <View ref={"otherView3"} />
+                {/* GLOBAL FLASH MESSAGE COMPONENT INSTANCE */}
+                <Spinner color={"blue"} />
+                {/* <--- here as last component */}
+            </View>
+        );
+    }
+}
+```
+
+After that you only need to call `showSpinner` or `hideSpinner` methods from anywhere in your app.
+
+If you don't need a global use for _(e.g. will use only in one screen)_ you can instance your _Spinner Component_ with a ref ID _(or other capture ref method)_:
+
+```jsx
+<View style={{ flex: 1 }}>
+  <YourMainApp />
+  <Spinner color={"blue"} ref="mySpinner" /> {/* <--- here as last component always with `ref` */}
+<View>
+```
+
+The message object obligatorily requires some `message` attribute. If you need to show a message with two lines _(title and more details)_ you could use `message` attr for title and `description` attr for details line:
+
+## Props
+
+| Property | Default | Required | Description                |
+| -------- | ------- | -------- | -------------------------- |
+| color    | `true`  | No       | To change color of spinner |
+
+## Documentation
+
+More details and usages will coming soon.
+
+## TODO
+
+1. Add more customization
+2. Add more spinner animations
+
+## License
+
+<!-- [MIT](./LICENSE) -->

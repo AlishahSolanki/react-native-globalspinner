@@ -1,6 +1,6 @@
 {
-    "name": "react-native-spinner",
-    "title": "React Native Spinner",
+    "name": "react-native-globalspinner",
+    "title": "React Native Global Spinner",
     "version": "1.0.0",
     "description": "TODO",
     "main": "src/index.js",
@@ -10,8 +10,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://AlishahSolanki@github.com/AlishahSolanki/react-native-spinner.git",
-        "baseUrl": "https://github.com/AlishahSolanki/react-native-spinner"
+        "url": "https://AlishahSolanki@github.com/AlishahSolanki/react-native-globalspinner.git",
+        "baseUrl": "https://github.com/AlishahSolanki/react-native-globalspinner"
     },
     "keywords": [
         "react-native"
