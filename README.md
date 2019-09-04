@@ -1,4 +1,4 @@
-<h1 align="center" style="text-align: center;">react-native-flash-message</h1>
+<h1 align="center" style="text-align: center;">react-native-globalspinner</h1>
 
 <p align="center" style="font-size: 1.2rem;">
   <strong>global Spinner</strong> it is a React Native module to help you with easily and highly customizable Spinner to show loading<br />
