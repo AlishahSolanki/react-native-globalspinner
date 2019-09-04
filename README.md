@@ -72,8 +72,6 @@ If you don't need a global use for _(e.g. will use only in one screen)_ you can 
 <View>
 ```
 
-The message object obligatorily requires some `message` attribute. If you need to show a message with two lines _(title and more details)_ you could use `message` attr for title and `description` attr for details line:
-
 ## Props
 
 | Property | Default | Required | Description                |
