@@ -34,7 +34,7 @@ yarn add react-native-globalspinner
 
 <!-- ## Try it out
 
-You can try out the [Flash Message Playground app](https://exp.host/@lucasferreira/FlashMessagePlayground) to get a tease of the functionalities of this lib. -->
+You can try out the [SPINNER Playground app](https://exp.host/@lucasferreira/FlashMessagePlayground) to get a tease of the functionalities of this lib. -->
 
 ## Basic Usage
 
@@ -52,7 +52,7 @@ export default class App extends React.Component {
                 <View ref={"otherView1"} />
                 <View ref={"otherView2"} />
                 <View ref={"otherView3"} />
-                {/* GLOBAL FLASH MESSAGE COMPONENT INSTANCE */}
+                {/* GLOBAL SPINNER COMPONENT INSTANCE */}
                 <Spinner color={"blue"} />
                 {/* <--- here as last component */}
             </View>
