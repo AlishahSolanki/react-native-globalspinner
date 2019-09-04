@@ -91,4 +91,4 @@ More details and usages will coming soon.
 
 ## License
 
-<!-- [MIT](./LICENSE) -->
+[MIT](./LICENSE)
