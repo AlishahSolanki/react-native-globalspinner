@@ -2,18 +2,19 @@
 
 <p align="center" style="font-size: 1.2rem;">
   <strong>global Spinner</strong> it is a React Native module to help you with easily and highly customizable Spinner to show loading<br />
-  <img src="https://i.imgur.com/t4COoWT.gif" alt="Global Demo of Spinner Component" width="86%" style="border: 0; width: 86%; min-width: 240px; max-width: 100%;" />
+  
+  <img src="https://i.imgur.com/46PytxA.gif" alt="Global Demo of Spinner Component" width="86%" style="border: 0; width: 86%; min-width: 240px; max-width: 100%;" />
 </p>
 
 <p align="center" style="font-size: 1.2rem;">
-  <a href="https://npmjs.org/package/react-native-flash-message" title="View this project on npm">
-    <img src="http://img.shields.io/npm/v/react-native-flash-message.svg?style=flat-square" alt="npm version" />
+  <a href="https://www.npmjs.com/package/react-native-globalspinner" title="View this project on npm">
+    <img src="http://img.shields.io/npm/v/react-native-globalspinner.svg?style=flat-square" alt="npm version" />
   </a>
-  <a href="https://npmjs.org/package/react-native-flash-message" title="View this project on npm">
-    <img src="http://img.shields.io/npm/dm/react-native-flash-message.svg?style=flat-square" alt="npm downloads" />
+  <a href="https://www.npmjs.com/package/react-native-globalspinner" title="View this project on npm">
+    <img src="http://img.shields.io/npm/dm/react-native-globalspinner.svg?style=flat-square" alt="npm downloads" />
   </a>
-  <a href="https://npmjs.org/package/react-native-flash-message" title="View this project on npm">
-    <img src="http://img.shields.io/npm/l/react-native-flash-message.svg?style=flat-square" alt="npm licence" />
+  <a href="https://www.npmjs.com/package/react-native-globalspinner" title="View this project on npm">
+    <img src="http://img.shields.io/npm/l/react-native-globalspinner.svg?style=flat-square" alt="npm licence" />
   </a>
 </p>
 
