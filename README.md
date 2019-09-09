@@ -53,7 +53,7 @@ export default class App extends React.Component {
                 <View ref={"otherView2"} />
                 <View ref={"otherView3"} />
                 {/* GLOBAL SPINNER COMPONENT INSTANCE */}
-                <Spinner color={"blue"} />
+                <Spinner type='BallIndicator' color={"blue"} size={30} count={8}/>
                 {/* <--- here as last component */}
             </View>
         );
@@ -74,9 +74,89 @@ If you don't need a global use for _(e.g. will use only in one screen)_ you can 
 
 ## Props
 
-| Property | Default | Required | Description                |
-| -------- | ------- | -------- | -------------------------- |
-| color    | `true`  | No       | To change color of spinner |
+## Common properties
+
+ name               | description                   | type     | default
+:------------------ |:----------------------------- | --------:|:-------------
+ animationEasing    | Animation easing function     | Function | Easing.linear
+ animationDuration  | Animation duration in ms      |   Number | 1200
+ animating          | Animation toggle              |  Boolean | true
+ interaction        | Animation is interaction      |  Boolean | true
+
+## BallIndicator properties
+
+ name  | description         | type   | default
+:----- |:------------------- | ------:|:------------
+ color | Component color     | String | rgb(0, 0, 0)
+ count | Component count     | Number | 8
+ size  | Base component size | Number | 40
+
+## BarIndicator properties
+
+ name  | description         | type   | default
+:----- |:------------------- | ------:|:------------
+ color | Component color     | String | rgb(0, 0, 0)
+ count | Component count     | Number | 3
+ size  | Base component size | Number | 40
+
+## DotIndicator properties
+
+ name  | description         | type   | default
+:----- |:------------------- | ------:|:------------
+ color | Component color     | String | rgb(0, 0, 0)
+ count | Component count     | Number | 4
+ size  | Base component size | Number | 16
+
+## MaterialIndicator properties
+
+ name       | description         | type   | default
+:---------- |:------------------- | ------:|:------------
+ color      | Component color     | String | rgb(0, 0, 0)
+ size       | Base component size | Number | 40
+
+## PacmanIndicator properties
+
+ name  | description         | type   | default
+:----- |:------------------- | ------:|:------------
+ color | Component color     | String | rgb(0, 0, 0)
+ size  | Base component size | Number | 48
+
+## PulseIndicator properties
+
+ name  | description         | type   | default
+:----- |:------------------- | ------:|:------------
+ color | Component color     | String | rgb(0, 0, 0)
+ size  | Base component size | Number | 40
+
+## SkypeIndicator properties
+
+ name     | description             | type   | default
+:-------- |:----------------------- | ------:|:------------
+ color    | Component color         | String | rgb(0, 0, 0)
+ count    | Component count         | Number | 5
+ size     | Base component size     | Number | 40
+ minScale | Minimum component scale | Number | 0.2
+ maxScale | Maximum component scale | Number | 1.0
+
+## UIActivityIndicator properties
+
+ name  | description         | type   | default
+:----- |:------------------- | ------:|:------------
+ color | Component color     | String | rgb(0, 0, 0)
+ count | Component count     | Number | 12
+ size  | Base component size | Number | 40
+
+## WaveIndicator properties
+
+ name       | description         | type   | default
+:---------- |:------------------- | ------:|:------------
+ color      | Component color     | String | rgb(0, 0, 0)
+ count      | Component count     | Number | 4
+ size       | Base component size | Number | 40
+ waveFactor | Wave base number    | Number | 0.54
+ waveMode   | Wave appearance     | String | fill
+
+Possible values for `waveMode` are `fill` and `outline`
 
 ## Documentation
 
