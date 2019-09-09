@@ -68,7 +68,8 @@ If you don't need a global use for _(e.g. will use only in one screen)_ you can 
 ```jsx
 <View style={{ flex: 1 }}>
   <YourMainApp />
-  <Spinner color={"blue"} ref="mySpinner" /> {/* <--- here as last component always with `ref` */}
+  {/* <--- here as last component always with `ref` */}
+  <Spinner type='BallIndicator' color={"blue"} size={30} count={8} ref="mySpinner" /> 
 <View>
 ```
 
