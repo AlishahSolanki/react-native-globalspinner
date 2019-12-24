@@ -1,7 +1,7 @@
 {
     "name": "react-native-globalspinner",
     "title": "React Native Global Spinner",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "TODO",
     "main": "src/index.js",
     "types": "src/index.d.ts",
