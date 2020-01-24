@@ -1,35 +1,40 @@
 {
-    "name": "react-native-globalspinner",
-    "title": "React Native Global Spinner",
-    "version": "2.0.0",
-    "description": "TODO",
-    "main": "src/index.js",
-    "types": "src/index.d.ts",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://AlishahSolanki@github.com/AlishahSolanki/react-native-globalspinner.git",
-        "baseUrl": "https://github.com/AlishahSolanki/react-native-globalspinner"
-    },
-    "keywords": [
-        "react-native"
-    ],
-    "author": {
-        "name": "Ali Shah Solanki",
-        "email": "alishah.solanki@gmail.com"
-    },
-    "license": "MIT",
-    "licenseFilename": "LICENSE",
-    "readmeFilename": "README.md",
-    "peerDependencies": {
-        "prop-types": "^15.0 || ^16.0",
-        "react": "*",
-        "react-native": "*"
-    },
-    "devDependencies": {
-        "react": "^16.8.3",
-        "react-native": "^0.59.10"
-    }
+	"name": "react-native-globalspinner",
+	"title": "React Native Global Spinner",
+	"version": "2.0.2",
+	"description": "TODO",
+	"main": "src/index.js",
+	"types": "src/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://AlishahSolanki@github.com/AlishahSolanki/react-native-globalspinner.git",
+		"baseUrl": "https://github.com/AlishahSolanki/react-native-globalspinner"
+	},
+	"keywords": [
+		"spinner",
+		"globalspinner",
+		"global",
+		"react-native-globalspinner",
+		"Global Spinner",
+		"global spinner"
+	],
+	"author": {
+		"name": "Ali Shah Solanki",
+		"email": "alishah.solanki@gmail.com"
+	},
+	"license": "MIT",
+	"licenseFilename": "LICENSE",
+	"readmeFilename": "README.md",
+	"peerDependencies": {
+		"prop-types": "^15.0 || ^16.0",
+		"react": "*",
+		"react-native": "*"
+	},
+	"devDependencies": {
+		"react": "^16.8.3",
+		"react-native": "^0.59.10"
+	}
 }
